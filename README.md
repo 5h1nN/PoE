@@ -1,24 +1,9 @@
-# CVE-2021-41773 Apache 2.4.49 Path Traversal Vulnerability
-
 ## Disclaimer
 1. This project is meant for fellow researchers with good-will to assess their targets. 
 1. Please do not use it for malicious intent. 
 1. Scripts are not well tested so use it at your own risk. 
 
 ## Description
-This directory contains two scripts that can be used to enumerate if the targets available in shodan are vulnerable to CVE-2021-41773. 
-
-`shodan.sh` can be used to obtain the IPs of the servers with the vulnerable version via shodan query API and saved to a text file `apache-2.4.49`
-```
-./shodan.sh
-```
-
-`exploit.sh` can be used to check if the targets are vulnerable to CVE-2021-41773.
-```
-exploit.sh
-```
-
-## Result 
-As of 7 Oct 2021, there are no targets that are vulnerable to CVE-2021-41773.
+This project contains working PoC for certain vulnerabilties. Individual PoC description can be found in the respective folder. 
 
 
